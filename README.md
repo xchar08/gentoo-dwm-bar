@@ -1,4 +1,4 @@
-### DWM Bar for OpenRC 
+# DWM Bar for OpenRC 
 
 This is a script for a dynamic status bar for DWM (Dynamic Window Manager) that displays various system information such as network status, volume, weather, time, date, RAM usage, CPU usage, battery status, and uptime.
 Prerequisites
