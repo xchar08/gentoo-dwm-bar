@@ -48,20 +48,20 @@ sudo pacman -S xorg-xsetroot
 
 Usage
 
-    Clone the repository and move to the directory.
+Clone the repository and move to the directory.
 
 ```bash
 git clone https://github.com/jpx32/dwm_bar.git
 cd dwm_bar.git
 ```
 
-    Make the script executable.
+Make the script executable.
 
 ```bash
 chmod +x dwm-bar.sh
 ```
 
-    Run the script.
+Run the script.
 
 ```bash
 ./dwm-bar.sh
