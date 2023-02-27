@@ -43,16 +43,16 @@ $ sudo emerge --ask network-manager amixer curl bc acpi
 
 ## Usage
 
-To use the script, simply copy and paste the code into a new file named dwm-status.sh. Then make the file executable with the command:
+To use the script, simply copy and paste the code into a new file named dwm_bar.sh. Then make the file executable with the command:
 
 ```shell
-$ chmod +x dwm-status.sh
+$ chmod +x dwm_bar.sh
 ```
 
 Finally, add the following line to your .xinitrc or .xsession file (located in your home directory):
 
 ```shell
-$ ./dwm-status.sh &
+$ ./dwm_bar.sh &
 ```
 
 This will start the script in the background when you start dwm. The status bar will appear at the top of the screen.
