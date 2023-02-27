@@ -12,52 +12,60 @@ Prerequisites
 Debian and Ubuntu
 
 ```bash
-sudo apt install dwm```
+sudo apt install dwm
+```
 
 Fedora
 
 ```bash
-sudo dnf install dwm```
+sudo dnf install dwm
+```
 
 Arch Linux
 
 ```bash
-sudo pacman -S dwm```
+sudo pacman -S dwm
+```
 
 ## xsetroot
 Debian and Ubuntu
 
 ```bash
-sudo apt install x11-xserver-utils```
+sudo apt install x11-xserver-utils
+```
 
 Fedora
 
 ```bash
-sudo dnf install xorg-x11-server-utils```
+sudo dnf install xorg-x11-server-utils
+```
 
 Arch Linux
 
 ```bash
-sudo pacman -S xorg-xsetroot```
+sudo pacman -S xorg-xsetroot
+```
 
 Usage
 
     Clone the repository and move to the directory.
 
-bash
-
+```bash
 git clone https://github.com/jpx32/dwm_bar.git
-cd REPOSITORY
+cd dwm_bar.git
+```
 
     Make the script executable.
 
 ```bash
-chmod +x dwm-bar.sh```
+chmod +x dwm-bar.sh
+```
 
     Run the script.
 
 ```bash
-./dwm-bar.sh```
+./dwm-bar.sh
+```
 
 Credits
 
