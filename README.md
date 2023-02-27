@@ -38,7 +38,8 @@ $ sudo emerge --ask x11-apps/xsetroot
 You can install the remaining dependencies using your distribution's package manager. For example, on Gentoo-based systems you can run:
 
 ```csharp
-$ sudo emerge --ask networkmanager amixer curl bc acpi
+$ sudo emerge --ask net-misc/networkmanager net-misc/curl sys-devel/bc sys-power/acpi
+$ USE="alsa" sudo emerge --ask media-sound/pulseaudio 
 ```
 
 ## Usage
