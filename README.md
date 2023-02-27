@@ -38,7 +38,7 @@ $ sudo emerge --ask x11-apps/xsetroot
 You can install the remaining dependencies using your distribution's package manager. For example, on Gentoo-based systems you can run:
 
 ```csharp
-$ sudo emerge --ask network-manager amixer curl bc acpi
+$ sudo emerge --ask networkmanager amixer curl bc acpi
 ```
 
 ## Usage
