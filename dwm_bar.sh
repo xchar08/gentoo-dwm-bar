@@ -51,7 +51,7 @@ while true; do
     *"sunny"*) weather_emoji="☀️";;
     *"partly cloudy"*) weather_emoji="⛅";;
     *"cloudy"*) weather_emoji="☁️";;
-    *"overcast"*) weather_emoji="☁️";;
+    *"Overcast"*) weather_emoji="☁️";;
     *"mist"*) weather_emoji="🌫️";;
     *"fog"*) weather_emoji="🌫️";;
     *"light rain"*) weather_emoji="🌧️";;
