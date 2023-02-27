@@ -13,6 +13,7 @@ This script requires the following programs to be installed:
 * [curl](https://curl.se/)
 * [bc](https://www.gnu.org/software/bc/)
 * [acpi](https://wiki.gentoo.org/wiki/ACPI)
+* [wmname](https://packages.gentoo.org/packages/x11-misc/wmname)
 
 ## Installation
 ### dwm
@@ -38,7 +39,7 @@ $ sudo emerge --ask x11-apps/xsetroot
 You can install the remaining dependencies using your distribution's package manager. For example, on Gentoo-based systems you can run:
 
 ```csharp
-$ sudo emerge --ask net-misc/networkmanager net-misc/curl sys-devel/bc sys-power/acpi
+$ sudo emerge --ask net-misc/networkmanager net-misc/curl sys-devel/bc sys-power/acpi x11-misc/wmname
 $ USE="alsa" sudo emerge --ask media-sound/pulseaudio 
 ```
 
