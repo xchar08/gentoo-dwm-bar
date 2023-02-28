@@ -48,19 +48,19 @@ while true; do
   # Get the weather condition from the weather string and match it to an emoji
   case "$weather" in
     *"Clear"*) weather_emoji="☀️";;
-    *"sunny"*) weather_emoji="☀️";;
-    *"partly cloudy"*) weather_emoji="⛅";;
-    *"cloudy"*) weather_emoji="☁️";;
+    *"Sunny"*) weather_emoji="☀️";;
+    *"Partly Cloudy"*) weather_emoji="⛅";;
+    *"Cloudy"*) weather_emoji="☁️";;
     *"Overcast"*) weather_emoji="☁️";;
-    *"mist"*) weather_emoji="🌫️";;
-    *"fog"*) weather_emoji="🌫️";;
+    *"Mist"*) weather_emoji="🌫️";;
+    *"Fog"*) weather_emoji="🌫️";;
     *"Haze"*) weather_emoji="🌫️";;
-    *"light rain"*) weather_emoji="🌧️";;
-    *"rain"*) weather_emoji="🌧️";;
-    *"heavy rain"*) weather_emoji="🌧️";;
-    *"thunderstorm"*) weather_emoji="⛈️";;
-    *"snow"*) weather_emoji="❄️";;
-    *"hail"*) weather_emoji="❄️";;
+    *"Light Rain"*) weather_emoji="🌧️";;
+    *"Rain"*) weather_emoji="🌧️";;
+    *"Heavy Rain"*) weather_emoji="🌧️";;
+    *"Thunderstorm"*) weather_emoji="⛈️";;
+    *"Snow"*) weather_emoji="❄️";;
+    *"Hail"*) weather_emoji="❄️";;
     *) weather_emoji="❓";;
   esac
 
