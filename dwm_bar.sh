@@ -47,7 +47,7 @@ while true; do
 
   # Get the weather condition from the weather string and match it to an emoji
   case "$weather" in
-    *"clear"*) weather_emoji="☀️";;
+    *"Clear"*) weather_emoji="☀️";;
     *"sunny"*) weather_emoji="☀️";;
     *"partly cloudy"*) weather_emoji="⛅";;
     *"cloudy"*) weather_emoji="☁️";;
