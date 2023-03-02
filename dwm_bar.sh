@@ -49,15 +49,15 @@ while true; do
   case "$weather" in
     *"Clear"*) weather_emoji="☀️";;
     *"Sunny"*) weather_emoji="☀️";;
-    *"Partly Cloudy"*) weather_emoji="⛅";;
+    *"Partly cloudy"*) weather_emoji="⛅";;
     *"Cloudy"*) weather_emoji="☁️";;
     *"Overcast"*) weather_emoji="☁️";;
     *"Mist"*) weather_emoji="🌫️";;
     *"Fog"*) weather_emoji="🌫️";;
     *"Haze"*) weather_emoji="🌫️";;
-    *"Light Rain"*) weather_emoji="🌧️";;
+    *"Light rain"*) weather_emoji="🌧️";;
     *"Rain"*) weather_emoji="🌧️";;
-    *"Heavy Rain"*) weather_emoji="🌧️";;
+    *"Heavy rain"*) weather_emoji="🌧️";;
     *"Thunderstorm"*) weather_emoji="⛈️";;
     *"Snow"*) weather_emoji="❄️";;
     *"Hail"*) weather_emoji="❄️";;
