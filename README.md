@@ -63,3 +63,5 @@ This will start the script in the background when you start dwm. The status bar 
 You can modify the script to suit your needs by changing the system information that is displayed in the status bar. The comments in the code indicate which sections correspond to each piece of information.
 
 You can also change the format of the status bar by editing the xsetroot command near the end of the script. Be careful not to remove any of the necessary spacing or separator characters.
+
+<img href="./dwm-bar-preview.png"></img>
